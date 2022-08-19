@@ -1,0 +1,10 @@
+query Users {
+  users {
+    username
+    displayName
+    uuid
+    organization {
+      name
+    }
+  }
+}
